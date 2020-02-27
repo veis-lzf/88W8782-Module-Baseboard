@@ -1,0 +1,15 @@
+{ Using PSTWRITER 16.6.0 d001Jan-24-2019 at 13:04:50 }
+
+#1 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#4" as visible power pin of same name already exists in Package W8782 , U1: SCHEMATIC1, PAGE1 (3.40, 0.70).
+#2 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#10" as visible power pin of same name already exists in Package W8782 , U1: SCHEMATIC1, PAGE1 (3.40, 0.70).
+#3 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#12" as visible power pin of same name already exists in Package W8782 , U1: SCHEMATIC1, PAGE1 (3.40, 0.70).
+INFO(ORCAP-36080): Scanning netlist files ...
+
+Loading... G:\CADENCE ALLEGRO\MY_PRJ\W8782\allegro/pstchip.dat
+
+Loading... G:\CADENCE ALLEGRO\MY_PRJ\W8782\allegro/pstchip.dat
+
+Loading... G:\CADENCE ALLEGRO\MY_PRJ\W8782\allegro/pstxprt.dat
+
+Loading... G:\CADENCE ALLEGRO\MY_PRJ\W8782\allegro/pstxnet.dat
+packaging the design view...

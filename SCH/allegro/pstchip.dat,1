@@ -1,0 +1,135 @@
+FILE_TYPE=LIBRARY_PARTS;
+{ Using PSTWRITER 16.6.0 d001Jan-24-2019 at 12:08:28}
+primitive 'CAP NP_C0603_NC';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP NP';
+    JEDEC_TYPE='C0603';
+    VALUE='NC';
+  end_body;
+end_primitive;
+primitive 'ANTENNA_W8782_ANT_ANTENNA';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      OUTPUT_LOAD='(*)';
+  end_pin;
+  body
+    PART_NAME='ANTENNA';
+    JEDEC_TYPE='W8782_ANT';
+    VALUE='ANTENNA';
+  end_body;
+end_primitive;
+primitive 'HEADER 5X2_HD2X5_HEADER 5X2';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '4':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    '6':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+    '8':
+      PIN_NUMBER='(8)';
+      PINUSE='UNSPEC';
+    '10':
+      PIN_NUMBER='(10)';
+      PINUSE='UNSPEC';
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    '5':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    '7':
+      PIN_NUMBER='(7)';
+      PINUSE='UNSPEC';
+    '9':
+      PIN_NUMBER='(9)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='HEADER 5X2';
+    JEDEC_TYPE='HD2X5';
+    VALUE='HEADER 5X2';
+  end_body;
+end_primitive;
+primitive 'INDUCTANCE_R0603_10PF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='INDUCTANCE';
+    JEDEC_TYPE='R0603';
+    VALUE='10pF';
+  end_body;
+end_primitive;
+primitive 'W8782_W8782_MODULE_W8782';
+  pin
+    'SD_D2':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'SD_D3':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'SD_CMD':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'GND#4':
+      PIN_NUMBER='(4)';
+      PINUSE='POWER';
+    'SD_CLK':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    'SD_D0':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+    'SD_D1':
+      PIN_NUMBER='(7)';
+      PINUSE='UNSPEC';
+    '3V3':
+      PIN_NUMBER='(8)';
+      PINUSE='POWER';
+    'PDN':
+      PIN_NUMBER='(9)';
+      PINUSE='UNSPEC';
+    'GND#10':
+      PIN_NUMBER='(10)';
+      PINUSE='POWER';
+    'ANT_RF':
+      PIN_NUMBER='(11)';
+      PINUSE='UNSPEC';
+    'GND#12':
+      PIN_NUMBER='(12)';
+      PINUSE='POWER';
+    'WK_IN':
+      PIN_NUMBER='(13)';
+      PINUSE='UNSPEC';
+    'WK_OUT':
+      PIN_NUMBER='(14)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='W8782';
+    JEDEC_TYPE='W8782_module';
+    VALUE='W8782';
+  end_body;
+end_primitive;
+END.

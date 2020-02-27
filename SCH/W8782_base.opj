@@ -1,0 +1,84 @@
+(ExpressProject "W8782_base"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\w8782_base.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Board_sim_option "VHDL_flow")
+    (Netlist_TAB "0"))
+  (Folder "Outputs"
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (OFFPAGELEFT-L
+      (LibraryName "H:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 5X2"
+      (FullPartName "HEADER 5X2.Normal")
+      (LibraryName "H:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 7X2"
+      (FullPartName "HEADER 7X2.Normal")
+      (LibraryName "H:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName "H:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (ANTENNA
+      (FullPartName "ANTENNA.Normal")
+      (LibraryName "H:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (INDUCTANCE
+      (FullPartName "INDUCTANCE.Normal")
+      (LibraryName "G:\CADENCE ALLEGRO\MY_LIB\MY_SCH_LIB\MY_LIB.OLB")
+      (DeviceIndex "0"))
+    ("CAP NP"
+      (FullPartName "CAP NP.Normal")
+      (LibraryName "G:\CADENCE ALLEGRO\MY_LIB\MY_SCH_LIB\MY_LIB.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "H:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-R
+      (LibraryName "H:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (W8782
+      (FullPartName "W8782.Normal")
+      (LibraryName "G:\CADENCE ALLEGRO\MY_LIB\MY_SCH_LIB\MY_LIB.OLB")
+      (DeviceIndex "0")))
+  (ISPCBBASICLICENSE "false")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\w8782_base.dsn")
+      (Path "Design Resources" ".\w8782_base.dsn" "SCHEMATIC1")
+      (Path "Outputs"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -32 0 200 0 472"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -32 84 1588 54 531")
+        (Scroll "-243 35")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "G:\GITHUB\W8782-MODULE-BASEBOARD\SCH\W8782_BASE.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (MPSSessionName "12566"))
